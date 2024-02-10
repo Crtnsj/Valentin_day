@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mimi {
+  min-height: 20rem;
+  min-width: 20rem;
+  border-radius: 3rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../src/assets/mimi.JPG");
+}
+.mimi2 {
+  min-height: 20rem;
+  min-width: 20rem;
+  border-radius: 3rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../src/assets/mimi2.png");
+}
