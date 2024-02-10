@@ -3,16 +3,20 @@
 @tailwind utilities;
 
 .mimi {
-  min-height: 20rem;
-  min-width: 20rem;
+  /* min-height: 15rem; */
+  min-width: 15rem;
+  width: 20vw;
+  aspect-ratio: 1/1;
   border-radius: 3rem;
   background-position: center;
   background-size: cover;
-  background-image: url("../src/assets/mimi.JPG");
+  background-image: url("../src/assets/mimi.png");
 }
 .mimi2 {
-  min-height: 20rem;
-  min-width: 20rem;
+  /* min-height: 15rem; */
+  min-width: 15rem;
+  width: 20vw;
+  aspect-ratio: 1/1;
   border-radius: 3rem;
   background-position: center;
   background-size: cover;

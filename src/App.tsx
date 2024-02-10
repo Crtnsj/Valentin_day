@@ -33,16 +33,16 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen -mt-16">
+    <div className="flex flex-col items-center justify-center h-screen bg-pink-300">
       {yesPressed ? (
         <>
           <div className="mimi2"></div>
-          <div className="text-4xl font-bold my-4">Youhouuuuuuu !!!!🥰🥰🥰</div>
+          <div className="text-4xl font-bold my-4 text-center">Youhouuuuuuu !!!!🥰🥰🥰</div>
         </>
       ) : (
         <>
           <div className="mimi"></div>
-          <h1 className="text-4xl my-4">Est-ce que tu veux être ma Valentine ?</h1>
+          <h1 className="text-4xl my-4 text-center">Est-ce que tu veux être ma Valentine ?</h1>
           <div>
             <button
               className={`bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-4`}
